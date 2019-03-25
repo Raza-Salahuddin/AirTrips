@@ -1,0 +1,56 @@
+body
+{
+ background-color: #eeee;
+
+}
+#frm{
+
+	 border: solid gray 1px;
+	width: 35%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: white;
+	padding: 50px;
+}
+#btn
+{	
+
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 30%;
+	width: 140%;
+     max-width: 122px;
+     box-sizing: border-box;
+ }
+ #butn
+{
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left:  15%;
+	 width: 10%;
+     max-width: 110px;
+     box-sizing: border-box;
+ }
+.input
+{
+	 width: 100%;
+     max-width: 180px;
+     box-sizing: border-box;
+}
+#HThree
+{
+	float: center;
+	font color: #eee;
+}
+#form
+{
+	border: solid gray 1px;
+	width: 1000px;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: white;
+	padding: 50px;
+	color: black;
+}

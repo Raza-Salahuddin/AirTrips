@@ -1,0 +1,224 @@
+body{
+	background-image: url(nature.jpg);
+	background-attachment: fixed;
+	opacity: 0.8;
+}
+.upper{
+	width: 100%;
+
+	height: 50px;
+	background-color: black;
+	opacity: 100;
+	
+}
+.navbar{
+	padding: 0px;
+	opacity: 8%;
+	width: 100%;
+
+}
+.navbar-brand{
+	float: left; 
+	width: 350px;
+	/*border: 1px solid black;*/
+	font-size: 26px;
+	font-family: lucida handwritting italic;
+	color: white;
+}
+sub{
+	font-size: 14px;
+	font-family: freestyle script regular;
+}
+li a{
+	color: white;
+}
+
+.nav{
+	float: right;
+	/*border: 1px solid black;*/
+
+}
+.body{
+	height: 578px;
+	border-bottom: 1px solid white;
+	/*border: 1px solid white;*/
+}
+.h1{
+	color: white;
+	text-align: center;
+	margin-top: 120px;
+	font-family: vivalid italic;
+	font-size: 82px;
+	margin-left: 90px;
+}
+.sub{
+	font-size: 48px;
+}
+.h2{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 60px;
+	font-family: viner hand itc regular;
+	font-size:28px;
+}
+
+#srch{
+	width: 450px;
+	height: 40px;
+	margin-left: 350px;
+	margin-top: 40px;
+	opacity: 0.6;
+}
+.btn{
+	margin-left: 480px;
+	width: 200px;
+	background-color: orange;
+	opacity: 0.7;
+	font-size: 20px;
+
+}
+.vision{
+	height: 300px;
+	border-bottom: 1px solid white;
+}
+.vis u{
+	font-family: vivalid italic;
+	color: white;
+	text-align: center;
+}
+#goals{
+	font-family: vivalid italic;
+	color: white;
+	font-size: 26px;
+}
+
+  .main{
+  	height: 500px;
+  }
+  .p1{
+  	/*border: 1px solid white;*/
+  	height: 400px;
+  	width: 350px; 
+  	float: left;
+  	margin-left: 1px;
+  	margin-top: 30px;
+  }
+.p2{
+  	/*border: 1px solid white;*/
+  	height: 400px;
+  	width: 350px; 
+  float: left;
+  margin-left: 29px;
+margin-top: 30px;
+  }
+.p3{
+  	/*border: 1px solid white;*/
+  	height: 400px;
+  	width: 350px; 
+  float: left;
+  margin-left: 29px;
+  margin-top: 30px;
+  }
+.fig{
+	height: 200px;
+	/*border: 1px solid black;*/
+}
+.fig img{
+	height: 200px;
+	width: 348px;
+	background-attachment: fixed;
+}
+.caption{
+	height: 48px;
+	/*border: 1px solid white;*/
+	background-color: black;
+	opacity: 100%;
+
+	}
+	.caption h3{
+		color: white;
+		text-align: center;
+	}
+
+.info{
+	height: 150px;
+/*	border: 1px solid white*/
+background-color: black;
+   color:white;
+   opacity: 100;
+}
+.follow{
+	height: 50px;
+	width: 100%;
+	border-bottom: 1px solid white;
+	background-color: black;
+	opacity: 100;
+}
+.follow img{
+	width: 35px;
+height: 40px;
+padding: 2px;
+margin-left: 35px;
+margin-top: 5px;
+
+}
+.footer{
+	height: 350px;
+	/*border-top: 1px solid white;*/
+	border-bottom: 1px solid white;
+	background-color: black;
+	opacity: 100;
+	width: 100%;
+
+}
+.about{
+	height: 345px;
+float: left;
+width: 250px;
+
+
+margin-left: 80px; 
+/*border: 1px solid white;*/
+
+}
+.category{
+height: 345px;	
+float: left;
+/*border: 1px solid white;*/
+width: 250px;
+margin-left: 180px;
+}
+.category ul li a{
+	color: white;
+	font-size: 16px;
+	font-family: vivalid italic;
+	
+
+}
+.links{
+	margin-left: 180px;
+	height: 345px;
+	float: left;
+	/*border: 1px solid white;*/
+width: 250px;
+}
+.links ul li a{
+	color: white;
+	font-size: 16px;
+	font-family: vivalid italic;
+}
+.foot{
+	color: white;
+	text-align: center;
+	font-family: vivalid italic;
+}
+.copy{
+	height: 20px;
+	
+	background-color: black;
+	opacity: 100;
+	color: white;
+	font-family: vivalid italic;
+
+}

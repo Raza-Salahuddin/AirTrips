@@ -1,0 +1,38 @@
+body{
+	background-image: url(nature.jpg);
+	background-attachment: fixed;
+	opacity: 100;
+}
+.upper{
+	width: 100%;
+	padding: 0px;
+	height: 50px;
+	background-color: black;
+	opacity: 100;
+	
+}
+.navbar{
+	padding: 0px;
+	opacity: 8%;
+}
+.navbar-brand{
+	float: left; 
+	width: 350px;
+	/*border: 1px solid black;*/
+	font-size: 26px;
+	font-family: lucida handwritting italic;
+	color: white;
+}
+sub{
+	font-size: 14px;
+	font-family: freestyle script regular;
+}
+li a{
+	color: white;
+}
+
+.nav{
+	float: right;
+	/*border: 1px solid black;*/
+
+}

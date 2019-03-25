@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login Page </title>
+	<meta charset="utf-8">
+		  <link rel="stylesheet" type="text/css" href="login.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<div class="row   upper"  >
+
+<nav class="navbar  navi col-lg-12 col-md-12 col-sm-12 col-xs-12"   > 
+   <div class="container-fluid">
+    <div class="navbar-header">
+       <a class="navbar-brand" href="home.html" >EDEN<sub><b>TOURISTER</b></sub></a>
+     </div>
+    <ul class="nav navbar-nav" >
+      <li ><a href="home.html">Home</a> </li>
+      <li class="active"><a href="login.html">Login</a> </li>
+      <li ><a href="">Packages</a></li>
+     <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+        <span class="caret"></span>About us</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Find us</a></li>
+          
+        </ul>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+</div>
+<br><br><br><br>
+
+
+
+
+
+
+<body>
+<div id="frm" >
+	<form action="process.php" method="POST">
+		<p >
+			<label>&nbsp;&nbsp;&nbsp;&nbsp;Username:</label>
+		<input type="text" id="user" name="user" required placeholder="Username" class="input">
+	   </p>
+	   <p class="alert alert_danger">
+			<label>Password:</label>
+		<input type="Password" id="pass" name="pass" required placeholder="Password" class="input">
+	   </p>
+		 <p>
+  <input type="submit" id="btn" value="Login" class="btn btn-primary">
+	   </p>
+	</form>
+	
+</div>
+
+<div id="frm">
+	<h3 id="HThree"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New user Create Account?</h3>
+	<form action="cAccount.html" method="POST">
+		  <input type="submit" id="btn" value="Create Account" class="btn btn-primary">
+
+	</form >
+</div>
+</body>
+</html>
